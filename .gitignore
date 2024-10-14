@@ -1,0 +1,72 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+build/
+dist/
+fastapi-ml-env
+# Virtual Environment
+venv/
+.env/
+env/
+ENV/
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# dotenv (environment variables)
+.env
+*.env
+
+# Logs
+logs/
+*.log
+*.log.*
+logfile
+logfile.*
+
+# Database
+*.db
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Pytest
+.cache
+.tox
+coverage/
+coverage.xml
+*.cover
+*.coverage
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Bandit security check files
+.security/
+
+# FastAPI specific
+staticfiles/
+media/
